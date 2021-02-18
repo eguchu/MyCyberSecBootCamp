@@ -99,6 +99,6 @@ SSH into the control node and follow the steps below:
 
 - Copy the install-elk.yml file to ansible.
 - Update the hosts file in ansible to include the IP address of the ELK stack server.
-- Run the playbook, and navigate to the kibana web page http://ip-address:5601/app/kibana#/home to check that the installation worked as expected.
+- Run the playbook, and navigate to the kibana web page http://public-ip-address-of-elk-server:5601/app/kibana#/home to check that the installation worked as expected.
 
 
