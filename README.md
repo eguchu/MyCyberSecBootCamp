@@ -65,7 +65,7 @@ The playbook implements the following tasks:
 
 - Installs the docker.io image
 - Installs the python3 docker module
-- Increases virtual memory to meet ELK stack memory requirements
+- Increases virtual memory to meet elk stack memory requirements
 - Downloads and launches a docker elk container
 - Updates SystemD daemon to start the docker service every time the elk server is booted
 
